@@ -8,15 +8,15 @@
 
 •	Then we need  click on the CLI tab to access the configuration menu.Then,
 
-      1.	Type **enable**
+      1.	Type enable
       
-      2.	Type **config terminal** to access the configuration menu.
+      2.	Type config terminal to access the configuration menu.
       
-      3.	Type **interface fa 0/0** to access Ethernet0/0
+      3.	Type interface fa 0/0 to access Ethernet0/0
       
-      4.	Type **ip address 10.0.0.1  255.0.0.0**
+      4.	Type ip address 10.0.0.1  255.0.0.0
       
-      5.	Type **no shutdown**
+      5.	Type no shutdown
       
 •	The router is configured properly.
 
