@@ -1,12 +1,12 @@
 # **Router Configuration**:
 
-•	Select one **PT-Router** and two **end devices** from the bottom left-hand corner and drag it to the screen. 
+*	Select one **PT-Router** and two **end devices** from the bottom left-hand corner and drag it to the screen. 
 
-•	Connect the router to end devices using default connection option.
+*	Connect the router to end devices using default connection option.
 
-•	Then we have to config end device(PC0) with **Gateway**:10.0.0.1 and **Ip-address**:10.0.0.10  and PC1 with **Gateway**:20.0.0.1 and **Ip-address**:20.0.0.10  .
+*	Then we have to config end device(PC0) with **Gateway**:10.0.0.1 and **Ip-address**:10.0.0.10  and PC1 with **Gateway**:20.0.0.1 and **Ip-address**:20.0.0.10  .
 
-•	Then we need  click on the CLI tab to access the configuration menu.Then,
+*	Then we need  click on the CLI tab to access the configuration menu.Then,
 
       1.	Type enable
       
@@ -18,9 +18,9 @@
       
       5.	Type no shutdown
       
-•	The router is configured properly.
+*	The router is configured properly.
 
-•	Type **ping 10.0.0.1** in the command prompt to know whether it is sent to destination or not.
+*	Type **ping 10.0.0.1** in the command prompt to know whether it is sent to destination or not.
 
 
 # **Outcomes**:
