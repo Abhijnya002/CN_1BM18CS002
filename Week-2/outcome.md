@@ -1,4 +1,4 @@
-**Router Configuration**:
+# **Router Configuration**:
 
 •	Select one PT-Router and two end devices from the bottom left-hand corner and drag it to the screen. 
 
@@ -23,7 +23,7 @@
 •	Type ping 10.0.0.1 in the command prompt to know whether it is sent to destination or not.
 
 
-**Outcomes**:
+# **Outcomes**:
 
 •	A router is the smartest and most complicated among hub and switch.
 
