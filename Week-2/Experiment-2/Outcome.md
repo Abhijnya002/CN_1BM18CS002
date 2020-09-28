@@ -25,11 +25,11 @@
 
 # **Outcomes**:
 
-•	A router is the smartest and most complicated among hub and switch.
+*	A router is the smartest and most complicated among hub and switch.
 
-•	The router is generally located at gateways and uses the ICMP protocol to communicate .
+*	The router is generally located at gateways and uses the ICMP protocol to communicate .
 
-•	We can check if the destination is active or not using ping message.
+*	We can check if the destination is active or not using ping message.
 
-•	It sets TTL in the packet header.
+*	It sets TTL in the packet header.
 
