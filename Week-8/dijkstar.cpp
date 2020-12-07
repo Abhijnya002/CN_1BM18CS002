@@ -1,34 +1,34 @@
 #include<iostream>
 using namespace std;
-int a[30][30],source,d[30],p[30];
+int a[30][30],source,dist[30],path[30];
 
 void dijkstar(int a[][30],int n)
 {
-    int s[n];
+    int visited[n];
     for(int i=0;i<n;i++)
     {
-    	d[i]=a[source][i];
-    	p[i]=source;
-    	s[i]=0;
+    	dist[i]=a[source][i];
+    	path[i]=source;
+    	visited[i]=0;
     }
-    s[source]=1;
+    visited[source]=1;
     for(int c=0;c<n;c++)
     {
 	int min=999,u;
         for(int j=0;j<n;j++)
 	{
-        	if(d[j]<min && s[j]!=1){
-                min=d[j];
+        	if(dist[j]<min && visited[j]!=1){
+                min=dist[j];
                 u=j;
         }
     }
-    s[u]=1;
+    visited[u]=1;
     for(int i=0;i<n;i++)
     {
-        if(min+a[u][i]<d[i])
+        if(min+a[u][i]<dist[i])
 	{
-            d[i]=min+a[u][i];
-            p[i]=u;
+            dist[i]=min+a[u][i];
+            path[i]=u;
         }
     }
     }
@@ -58,10 +58,10 @@ int main()
  		while(k!=source) {
 
     		cout <<k<<" <- ";
-		k=p[k];
+		k=path[k];
  	}
 	 cout <<source<<"  =  ";
-	 cout<<"Path cost:"<<d[i]<<endl;
+	 cout<<"Path cost:"<<dist[i]<<endl;
 
 	}
 	return 0;
